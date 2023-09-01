@@ -6,6 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
+import br.com.alura.tienda.dao.CategoriaDao;
 import br.com.alura.tienda.dao.ProductoDao;
 import br.com.alura.tienda.modelo.Categoria;
 import br.com.alura.tienda.modelo.Producto;
@@ -23,10 +24,13 @@ public class RegistroDeProducto {
 		EntityManager em = JPAUtils.getEntityManager();
 
 		ProductoDao productoDao = new ProductoDao(em);
+		CategoriaDao categoriaDao = new CategoriaDao(em);
 
 	    em.getTransaction().begin();
-	    productoDao.guardar(celular);
+		categoriaDao.guardar(celulares); // * Permitira guardar los datos de la categoria
+	    productoDao.guardar(celular); // * Permitira guardar los datos del producto
 	    em.getTransaction().commit();
+		// * em.flush --> sincroniza los datos con la bd y permite realizar un roll back en caso de errores
 	    em.close();
 	}
 
