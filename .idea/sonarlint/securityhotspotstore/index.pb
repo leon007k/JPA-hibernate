@@ -1,0 +1,13 @@
+
+q
+Atienda_v2/src/main/java/br/com/alura/tienda/modelo/Categoria.java,0\2\024768285c5a1c4c80ffbbec04a16920d484c654
+p
+@tienda_v2/src/main/java/br/com/alura/tienda/dao/ProductoDao.java,3\6\36d17c5f67cc00ab9b07b5c0c46fb81801ff16ab
+o
+?tienda_v2/src/main/java/br/com/alura/tienda/utils/JPAUtils.java,4\9\49fd60c7de7851ec8a3c85b683fe243d16dcee85
+p
+@tienda_v2/src/main/java/br/com/alura/tienda/modelo/Producto.java,1\0\108747ec3aca05259f73a7a4b6eb3953aed3953f
+q
+Atienda_v2/src/main/java/br/com/alura/tienda/dao/CategoriaDao.java,5\a\5a827c9f6e8c932251063fd3eb52dbd4f7908b71
+y
+Itienda_v2/src/main/java/br/com/alura/tienda/tests/RegistroDeProducto.java,5\d\5d4baf337d57ac93f0da28188afecdc1d52ba810

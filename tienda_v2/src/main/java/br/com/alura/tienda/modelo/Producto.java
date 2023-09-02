@@ -20,6 +20,7 @@ public class Producto {
 	@ManyToOne // * Creamos la relacion de muchos productos a una categoria
 	private Categoria categoria;
 
+	public Producto(){}
 	public Producto(String nombre, String descripcion, BigDecimal precio, Categoria categoria) {
 		this.nombre = nombre;
 		this.descripcion = descripcion;
