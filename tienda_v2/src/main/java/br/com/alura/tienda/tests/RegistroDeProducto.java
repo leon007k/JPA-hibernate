@@ -27,7 +27,15 @@ public class RegistroDeProducto {
 
 		// * consultamos toda la lista de productos
 		List<Producto> productos = productoDao.consultarTodosProductos();
-		productos.forEach(prod -> System.out.println(prod.getNombre()));
+		productos.forEach(prod -> System.out.println("Obtenemos lista de productos: " + prod.getNombre()));
+
+		// * Consultamos producto por su nombre
+		List<Producto> productoPornombre = productoDao.consultaPorNombre("Iphone 14");
+		productoPornombre.forEach(prod -> System.out.println("Filtramos por nombre de producto: " + prod.getNombre()));
+
+		// * Consultamos listado de productos relacionados a una categoria, con el nombre de la categoria
+		List<Producto> productosPorCategoria = productoDao.consultaPorNombreCategoria("SOFTWARE");
+		productosPorCategoria.forEach(prod -> System.out.println("Listado de productos relacionados a una categoria: " + prod.getNombre()));
 	}
 
 	private static void guardarProductoPorEstados() {

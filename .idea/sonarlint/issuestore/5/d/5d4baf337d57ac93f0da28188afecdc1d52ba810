@@ -1,7 +1,10 @@
 
-X	java:S125"<This block of commented-out lines of code should be removed.(Ô¹“£8œ­•›¥1
-X	java:S125 "<This block of commented-out lines of code should be removed.(Ò™·8£­•›¥1
+G	java:S106"+Replace this use of System.out by a logger.(×»Öœ8­Ãò¢¥1
+G	java:S106"+Replace this use of System.out by a logger.(Ï½³ê8®Ãò¢¥1
+X	java:S125$"<This block of commented-out lines of code should be removed.(Ô¹“£8¯Ãò¢¥1
+X	java:S125+"<This block of commented-out lines of code should be removed.(Ò™·8²Ãò¢¥1
+]	java:S125="<This block of commented-out lines of code should be removed.(¤ê™ùÿÿÿÿ8³Ãò¢¥1
 `
-java:S1128"CRemove this unused import 'javax.persistence.EntityManagerFactory'.(îÜğ8‰—›¥1
+java:S1128"CRemove this unused import 'javax.persistence.EntityManagerFactory'.(îÜğ8´Ãò¢¥1
 \
-java:S1128":Remove this unused import 'javax.persistence.Persistence'.(›²ö¾ıÿÿÿÿ8‚‰—›¥1
+java:S1128":Remove this unused import 'javax.persistence.Persistence'.(›²ö¾ıÿÿÿÿ8´Ãò¢¥1
