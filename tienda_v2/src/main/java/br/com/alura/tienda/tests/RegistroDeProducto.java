@@ -36,6 +36,10 @@ public class RegistroDeProducto {
 		// * Consultamos listado de productos relacionados a una categoria, con el nombre de la categoria
 		List<Producto> productosPorCategoria = productoDao.consultaPorNombreCategoria("SOFTWARE");
 		productosPorCategoria.forEach(prod -> System.out.println("Listado de productos relacionados a una categoria: " + prod.getNombre()));
+
+		// * Consulta de precio por nombre
+		BigDecimal precioDelProducto = productoDao.consultarPrecioPorNombreDeProducto("Iphone 14");
+		System.out.println("Obtenemos precio del producto por nombre: " + precioDelProducto);
 	}
 
 	private static void guardarProductoPorEstados() {
