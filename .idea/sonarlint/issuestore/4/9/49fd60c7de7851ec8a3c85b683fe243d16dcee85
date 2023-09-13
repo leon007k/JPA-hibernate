@@ -1,5 +1,6 @@
 
-g
-java:S3008	"RRename this field "FACTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òíİ
-U
-java:S1118":Add a private constructor to hide the implicit public one.(‚óî¡üÿÿÿÿ
+n
+java:S3008
+"RRename this field "FACTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òíİ8ğëÍê¦1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(‚óî¡üÿÿÿÿ8õëÍê¦1

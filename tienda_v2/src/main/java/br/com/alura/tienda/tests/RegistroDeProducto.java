@@ -21,7 +21,8 @@ public class RegistroDeProducto {
 	public static void main(String[] args) {
 		guardarProductoPorEstados();
 
-		// * Consultamos un producto por ID
+
+		/*// * Consultamos un producto por ID
 		Producto producto = productoDao.consultaPorId(1L);
 		System.out.println(producto.getNombre());
 
@@ -39,7 +40,7 @@ public class RegistroDeProducto {
 
 		// * Consulta de precio por nombre
 		BigDecimal precioDelProducto = productoDao.consultarPrecioPorNombreDeProducto("Iphone 14");
-		System.out.println("Obtenemos precio del producto por nombre: " + precioDelProducto);
+		System.out.println("Obtenemos precio del producto por nombre: " + precioDelProducto);*/
 	}
 
 	private static void guardarProductoPorEstados() {

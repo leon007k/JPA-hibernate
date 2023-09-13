@@ -11,3 +11,9 @@ q
 Atienda_v2/src/main/java/br/com/alura/tienda/dao/CategoriaDao.java,5\a\5a827c9f6e8c932251063fd3eb52dbd4f7908b71
 y
 Itienda_v2/src/main/java/br/com/alura/tienda/tests/RegistroDeProducto.java,5\d\5d4baf337d57ac93f0da28188afecdc1d52ba810
+o
+?tienda_v2/src/main/java/br/com/alura/tienda/modelo/Cliente.java,d\2\d25fb803042dc567c3417ac032bb25dcc18b88fd
+n
+>tienda_v2/src/main/java/br/com/alura/tienda/modelo/Pedido.java,3\0\300c2093758ceb454693cc98a08728a2148e1d2c
+s
+Ctienda_v2/src/main/java/br/com/alura/tienda/modelo/ItemsPedido.java,c\d\cd118acb9cfe2d628225d663f074e1a1e3a62d48

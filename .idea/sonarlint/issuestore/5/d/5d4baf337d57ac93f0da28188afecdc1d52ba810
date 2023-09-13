@@ -1,12 +1,11 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(×»Öœ8ñ‚ó–¦1
-G	java:S106"+Replace this use of System.out by a logger.(ú‹Îœ8ó‚ó–¦1
-L	java:S106""+Replace this use of System.out by a logger.(øâ‘§úÿÿÿÿ8÷‚ó–¦1
-G	java:S106&"+Replace this use of System.out by a logger.(åÎ¾•8ú‚ó–¦1
-X	java:S125,"<This block of commented-out lines of code should be removed.(Ô¹“£8ý‚ó–¦1
-X	java:S1253"<This block of commented-out lines of code should be removed.(žÒ™·8ƒó–¦1
-]	java:S125E"<This block of commented-out lines of code should be removed.(¤ê™žùÿÿÿÿ8‰ƒó–¦1
-`
-java:S1128"CRemove this unused import 'javax.persistence.EntityManagerFactory'.(îÜð8®ïù–¦1
-\
-java:S1128":Remove this unused import 'javax.persistence.Persistence'.(›²ö¾ýÿÿÿÿ8®ïù–¦1
+l
+java:S1192!"JDefine a constant instead of duplicating this literal "Iphone 14" 3 times.(×€¦³úÿÿÿÿ8ššÝé¦1
+G	java:S106"+Replace this use of System.out by a logger.(×»Öœ8®šÝé¦1
+G	java:S106"+Replace this use of System.out by a logger.(ú‹Îœ8¯šÝé¦1
+L	java:S106""+Replace this use of System.out by a logger.(øâ‘§úÿÿÿÿ8°šÝé¦1
+G	java:S106&"+Replace this use of System.out by a logger.(åÎ¾•8±šÝé¦1
+F	java:S106*"+Replace this use of System.out by a logger.(Ó˜®g8²šÝé¦1
+X	java:S1250"<This block of commented-out lines of code should be removed.(Ô¹“£8³šÝé¦1
+X	java:S1257"<This block of commented-out lines of code should be removed.(žÒ™·8·šÝé¦1
+]	java:S125I"<This block of commented-out lines of code should be removed.(¤ê™žùÿÿÿÿ8¹šÝé¦1
